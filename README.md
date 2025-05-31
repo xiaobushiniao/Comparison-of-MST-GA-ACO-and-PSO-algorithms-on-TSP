@@ -1,28 +1,22 @@
 # Comparison of MST GA ACO and PSO algorithms on TSP
  An analysis and comparison of each algorithm in terms of TSP path length, difference from optimal solution, runtime (seconds), stability, and convergence speed.
 
+## Directory Description
 
-Directory Description
-data/
+### `data/`
+- **`coords.npy`**: City coordinate data file
 
-coords.npy: City coordinate data file
+### `utils/`
+- **`distance.py`**: Common distance matrix calculation functions
 
-utils/
+### `algorithms/`
+- **`mst.py`**: Minimum Spanning Tree algorithm implementation
+- **`aco.py`**: Ant Colony Optimization algorithm implementation
+- **`ga.py`**: Genetic Algorithm implementation
+- **`pso.py`**: Particle Swarm Optimization algorithm implementation
 
-distance.py: Common distance matrix calculation functions
-
-algorithms/
-
-mst.py: Minimum Spanning Tree algorithm implementation
-aco.py: Ant Colony Optimization algorithm implementation
-ga.py: Genetic Algorithm implementation
-pso.py: Particle Swarm Optimization algorithm implementation
-
-Root Directory
-
-compare.py: Main comparison program that calls all four algorithm modules
-
-
+### Root Directory
+- **`compare.py`**: Main comparison program that calls all four algorithm modules
 
 
 
