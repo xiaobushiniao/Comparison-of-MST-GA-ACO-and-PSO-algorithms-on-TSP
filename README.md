@@ -2,21 +2,26 @@
  An analysis and comparison of each algorithm in terms of TSP path length, difference from optimal solution, runtime (seconds), stability, and convergence speed.
 
 
-tsp_project/
-│
-├── data/
-│   └── coords.npy                  # 城市坐标数据
-│
-├── utils/
-│   └── distance.py                 # 通用的距离矩阵计算函数
-│
-├── algorithms/
-│   ├── mst.py                      # 最小生成树算法
-│   ├── aco.py                      # 蚁群算法
-│   ├── ga.py                       # 遗传算法
-│   └── pso.py                      # 微粒群算法
-│
-├── compare.py                      # 主对比程序，调用上述四个模块并
+Directory Description
+data/
+
+coords.npy: City coordinate data file
+
+utils/
+
+distance.py: Common distance matrix calculation functions
+
+algorithms/
+
+mst.py: Minimum Spanning Tree algorithm implementation
+aco.py: Ant Colony Optimization algorithm implementation
+ga.py: Genetic Algorithm implementation
+pso.py: Particle Swarm Optimization algorithm implementation
+
+Root Directory
+
+compare.py: Main comparison program that calls all four algorithm modules
+
 
 
 
